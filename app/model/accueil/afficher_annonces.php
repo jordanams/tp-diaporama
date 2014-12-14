@@ -212,7 +212,7 @@ function afficher_annonces2() {
 }
 
 
-function afficher_annonces3() {
+function afficher_annonces3($id) {
 	global $connexion;
 	try {
 			$select = $connexion->prepare("SELECT													
@@ -299,7 +299,7 @@ function afficher_annonces3() {
 										 LEFT JOIN types as TY ON MA.TYP_ID = TY.TYP_ID
 										 LEFT JOIN regions as RE ON MA.REG_ID = RE.REG_ID
 										 WHERE MA.AGE_ID = :id");
-			$select -> execute();
+			$select -> execute(array("id"=>$id));
 			$select->setFetchMode(PDO::FETCH_ASSOC);
 			$resultat = $select -> fetchAll();
 			return $resultat;

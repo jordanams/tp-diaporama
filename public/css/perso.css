@@ -77,5 +77,6 @@ ul li a:hover {
     border-radius: 12px;
     margin : 0 auto;
     margin-top: 10%;
+    display:none;
 }
 

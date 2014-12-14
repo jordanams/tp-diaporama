@@ -3,6 +3,9 @@
 //******************************************************//
 // --------------- PAGE POLYMORPHE ---------------------//
 	include_once('../app/config/connect.php');
+	include_once('../app/config/secu_session.php');
+	my_session_start();
+	
 
 		// dispatching des modules
 		if (isset($_GET['module']))
