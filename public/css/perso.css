@@ -1,0 +1,81 @@
+
+.titre_page {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+}
+
+#navigation-wrapper {
+    width:465px;
+    margin:0 auto;
+    text-align:center;
+}
+
+#top-navigation {
+    padding:5px 0;
+}
+
+#top-navigation li {
+    display:inline;
+    list-style-type:none;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+
+li {
+    float:left;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+ul li a {
+    display:block;
+    float:left;   
+    text-decoration:none;
+    text-align:center;
+}
+
+ul li a:hover {
+    color:white;
+    text-decoration:none;
+}  
+
+.myButton {
+    background-color:#33bdef;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border:1px solid #057fd0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:17px;
+    padding:11px 50px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b6178;
+}
+.myButton:hover {
+    background-color:#019ad2;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+#desc_annonces {
+    width: 400px;
+    height: 100%;
+    border: 5px #6f88ec solid;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    margin : 0 auto;
+    margin-top: 10%;
+}
+
