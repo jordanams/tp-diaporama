@@ -2,7 +2,9 @@
 function afficher_annonces() {
 	global $connexion;
 	try {
-			$select = $connexion->prepare("SELECT 	MA.MAN_REF,
+			$select = $connexion->prepare("SELECT 
+													MA.MAN_ID,
+													MA.MAN_REF,
 													MA.MAN_VEN_LOC,
 													MA.MAN_REG_LIB,
 													MA.MAN_TITRE,
@@ -215,7 +217,7 @@ function afficher_annonces2() {
 function afficher_annonces3($id) {
 	global $connexion;
 	try {
-			$select = $connexion->prepare("SELECT													
+			$select = $connexion->prepare("SELECT	MA.MAN_ID,												
 													MA.MAN_REF,
 													MA.MAN_VEN_LOC,
 													MA.MAN_REG_LIB,

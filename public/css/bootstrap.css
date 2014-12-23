@@ -2449,6 +2449,7 @@ _:-ms-fullscreen.input-lg,
 }
 .form-group {
   margin-bottom: 15px;
+  text-align: center;
 }
 .radio,
 .checkbox {

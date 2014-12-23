@@ -20,4 +20,4 @@
 <body>
     <script src="js/jquery-2.1.1.js"></script>
         <div id="page-wrapper">
-            <div class="row">
+            <div>

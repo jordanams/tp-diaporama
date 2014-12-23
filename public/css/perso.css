@@ -1,9 +1,36 @@
+#background {
+	width:100%;
+    height:auto;
+    margin:0;
+	background: url(http://ns366377.ovh.net/amsalem/3A_dev/immo/images/fond_A4_stgermain.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+#header_annonce {
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid #eee;
+}
 .titre_page {
     text-align: center;
     border-bottom: 1px solid #eee;
     padding-bottom: 9px;
     margin: 40px 0 20px;
+}
+
+.titre_page_annonce {
+    float: left;
+    text-align: left;
+    padding-bottom: 9px;
+    margin: 40px 0px 20px 10px;
+}
+
+.details_agence {
+    float: right;
+    margin: 40px 10px 20px 0px;
 }
 
 #navigation-wrapper {
@@ -19,7 +46,7 @@
 #top-navigation li {
     display:inline;
     list-style-type:none;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 ul {
@@ -69,14 +96,147 @@ ul li a:hover {
 }
 
 #desc_annonces {
-    width: 400px;
-    height: 100%;
-    border: 5px #6f88ec solid;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    margin : 0 auto;
-    margin-top: 10%;
+    width: 100%;
+    float: left;
+    margin-top: 3%;
     display:none;
+}
+
+/************************
+DESCRIPTION ANNONCE GAUCHE
+**************************/
+
+#desc_annonce_gauche {
+    width: 610px;
+    height: 420px;
+    padding: 10px;
+    margin-left: 20px;
+    float: left;
+    -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.73);
+    box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.73);
+}
+
+
+.annonce_desc_titre {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.annonce_desc_prix {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.annonce_desc_loc {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.annonce_desc_pc {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 19px;
+}
+
+.annonce_desc_region {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.annonce_desc_adresse {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.annonce_desc_cp {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.annonce_desc_desc_titre {
+    text-align: left;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: -15px;
+    font-size: 17px;
+}
+
+.annonce_desc_desc {
+    text-align: left;
+    float: left;
+    clear: both;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 240px;
+    font-size: 17px;
+    width: 570px;
+    height: 130px;
+}
+
+/***********************************************************/
+
+/************************
+DESCRIPTION ANNONCE DROITE
+**************************/
+
+
+#desc_annonce_droite {
+    width: 630px;
+    height: 400px;
+    float: right;
+}
+
+#carousel_image {
+    width:570px;
+    height:420px;
+    float: right;
+    margin-right: 20px;
+    box-shadow: 0px 0px 13px #000000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d6d6d6', endColorstr = '#bcc4cc');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d6d6d6', endColorstr = '#bcc4cc')";
+    background-image: -moz-linear-gradient(top, #d6d6d6, #bcc4cc);
+    background-image: -ms-linear-gradient(top, #d6d6d6, #bcc4cc);
+    background-image: linear-gradient(top, #d6d6d6, #bcc4cc);
+    overflow: hidden;
+}
+
+.item img {
+    width:600px;
+    height:320px;
+}
+
+#no_photo {
+    width:600px;
+    height:372px;
 }
 
