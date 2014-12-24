@@ -132,7 +132,7 @@
 							  {
 							  	 echo "<div class='item'>";
 							      	
-									echo "<img id='no_photo' src='images/nophoto.gif' />";
+									echo "<img class='no_photo' src='images/nophoto.jpg' />";
 									echo "<div class='carousel-caption'>";
 									echo "<h4></h4>";
 									echo "</div>";
@@ -142,7 +142,6 @@
 							  {
 							       foreach ($afficher_photo as $key => $row) {
 							      	echo "<div class='item'>";
-							      	
 									echo "<img src='http://ns366377.ovh.net/amsalem/3A_dev/immo/photos/T".$row['PHO_SRC']."' />";
 									echo "<div class='carousel-caption'>";
 									echo "<h4>".$row['PHO_DESCR']."</h4>";
